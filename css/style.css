@@ -1,0 +1,44 @@
+.container {
+  margin: auto;
+  border: 3px solid black;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.logo {
+  flex: 1;
+  border: 1px solid blue;
+}
+
+.logo img { width: 200px; }
+
+.menu {
+  display: flex;
+  flex: 4;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid rebeccapurple;
+}
+
+.menu-item {
+  margin-left: 20px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .container { width: 1200px; }
+}
+
+@media screen and (min-width: 700px) {
+
+  header { flex-direction: row; }
+
+  .logo img { width: 100%; }
+
+  .menu { justify-content: flex-end; }
+
+}
