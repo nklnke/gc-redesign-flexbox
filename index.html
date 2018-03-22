@@ -6,46 +6,70 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <div class="container">
+  <div class="container flex">
     
     <div class="sidebar">
 
-      <div class="logo">
-        <img src="img/test.jpg" alt="got comics">
+      <div class="logo dark">
+        <a href="">
+          <img src="img/gcexplosion.png" alt="got comics">
+        </a>
       </div>
 
       <div class="sidebar-menu">
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
-        <a href="" class="sidebar-link">link</a>
+
+        <section class="light">
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+        </section>
+        
+        <section class="dark">
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+        </section>
+        
+        <section class="light">
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+        </section>
+        
+        <section class="dark">
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+          <a href="" class="sidebar-link">link</a>
+        </section>
+
+        <section class="light">
+            <a href="" class="sidebar-link">link</a>
+            <a href="" class="sidebar-link">link</a>
+            <a href="" class="sidebar-link">link</a>
+        </section>
+
       </div>
 
-    </div> <!-- /sidebar -->
+    </div>
+    <!-- /sidebar -->
 
     <div class="content">
 
-      <div class="menu">
-        <div class="menu-item">link</div>
-        <div class="menu-item">link</div>
-        <div class="menu-item">link</div>
-        <div class="menu-item">link</div>
-        <div class="menu-item">link</div>
-      </div>  <!-- /menu -->
+      <div class="menu flex">
+        <div class="menu-item flex light">link</div>
+        <div class="menu-item flex dark">link</div>
+        <div class="menu-item flex light">link</div>
+      </div>
+      <!-- /menu -->
 
       <div class="sort-n-search">sort-n-search</div>
 
-      <div class="products-row">
+      <div class="products-row flex">
         
         <div class="product">product</div>
         <div class="product">product</div>
@@ -57,11 +81,14 @@
         <div class="product">product</div>
         <div class="product">product</div>
 
-      </div>  <!-- /products-row -->
+      </div>
+      <!-- /products-row -->
 
-    </div>  <!-- /content -->
+    </div>
+    <!-- /content -->
 
-  </div>  <!-- /container -->
+  </div>
+  <!-- /container -->
 
   <footer>footer</footer>
 

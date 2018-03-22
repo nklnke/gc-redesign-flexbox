@@ -1,104 +1,24 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+  background-image: url(../img/Keiths-Comics.jpg);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover;
+  color: #000;
+}
 
+.light {
+  background: #FFCD3C;
+  color: white;
+}
+
+.dark {
+  background: #F5BA31;
+  color: white;
+}
 
 .container {
-  display: flex;
-  margin: auto;
-  border: 3px solid black;
-  flex-direction: column;
-}
-
-.sidebar {
-  flex: 1;
-}
-
-.sidebar-menu {
-  display: none;
-}
-
-.sidebar-menu a {
-  width: 100%;
-  border: 1px solid violet;
-}
-
-.content {
-  flex: 5;
-}
-
-header {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.logo {
-  flex: 1;
-  width: 200px;
-  border: 1px solid blue;
-  margin: auto;
-}
-
-.logo img { width: 100%; }
-
-.menu {
-  display: flex;
-  flex: 5;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 1px solid rebeccapurple;
-  min-height: 100px;
-}
-
-.menu-item {
-  margin-left: 20px;
-}
-
-.sort-n-search {
-  border: 1px solid teal;
-}
-
-.products-row {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  border: 1px solid purple;
-}
-
-.product {
-  width: 150px;
-  height: 200px;
-  border: 1px solid salmon;
-}
-
-footer {
-  border: 1px solid royalblue;
-  width: 1200px;
-  margin: auto;
-}
-
-
-
-@media screen and (min-width: 1200px) {
-
-  .container { width: 1200px; }
-
-}
-
-@media screen and (min-width: 600px) {
-
-  .container {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .sidebar-menu {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  header { flex-direction: row; }
-  
-  .menu { justify-content: flex-end; }
-
-  footer { width: 1200px; }
-
+  background: #fff;
 }
