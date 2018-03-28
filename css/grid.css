@@ -17,7 +17,15 @@ aside {
 .sidebar-menu a {
   display: block;
   width: 100%;
-  padding: 5px 10px;
+}
+
+.sidebar-menu a {
+  padding: 10px 0;
+}
+
+.sidebar-menu span {
+  margin-left: 10px;
+  color: #fff;
 }
 
 main {
@@ -25,7 +33,6 @@ main {
 }
 
 .logo {
-  text-align: center;
   flex: 1;
   margin: auto;
   align-content: center;
@@ -36,7 +43,7 @@ main {
   padding: 20px;
 }
 
-.menu {
+.header {
   flex: 5;
   justify-content: center;
   flex-wrap: wrap;
@@ -45,7 +52,7 @@ main {
   align-content: stretch;
 }
 
-.menu-item {
+.header-item {
   flex: 1;
   justify-content: center;
 }
