@@ -39,6 +39,13 @@ a {
   background-color: #EE8F00;
 }
 
+.first-light-sidebar-item { color: #EE8F00; }
+.first-light-sidebar-item:hover { background-color: #F5BA31; color: #FFCD3C; }
+
+.first-dark-sidebar-item { color: #EE8F00; }
+.first-dark-sidebar-item:hover { background-color: #F5BA31; color: #FFCD3C; }
+
+
 .product:hover img {
   -webkit-filter: /* hue-rotate(180deg) */ saturate(150%);
 }
