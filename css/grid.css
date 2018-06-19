@@ -46,7 +46,7 @@ main {
 .header {
   justify-content: center;
   flex-wrap: wrap;
-  min-height: 100px;
+  min-height: 124px;
   align-items: stretch;
   align-content: stretch;
 }
