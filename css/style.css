@@ -4,16 +4,14 @@
   --color-orange: #FF992D;
   --color-yellow: #EFB03B;
   --color-white: #fff;
+  --color-gray: #D1D1D1;
 }
 
 body {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   background-color: #fff;
-  background-image: url(../img/Keiths-Comics.jpg);
-  background-repeat: repeat-y;
-  background-position: center center;
-  background-size: cover;
+  background: url(../img/gc-icons.png) center top repeat;
   color: var(--color-black);
 }
 
@@ -22,15 +20,11 @@ a {
   color: #fff;
 }
 
-.light {
-  background: var(--color-yellow);
-  color: white;
-}
+.light { background: var(--color-yellow); }
+.dark { background: var(--color-orange); }
 
-.dark {
-  background: var(--color-orange);
-  color: white;
-}
+.light,
+.dark { color: var(--color-white); }
 
 .container {
   -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
@@ -55,12 +49,11 @@ a {
 .first-sidebar-item {
   color: var(--color-white);
   font-weight: bold;
+  text-decoration: underline;
+  margin-top: 5px;
 }
 
-.first-sidebar-item:hover,
-.first-sidebar-item:hover {
-  background-color: #F5BA31;
-}
+nav a:last-child { margin-bottom: 5px; }
 
 .product:hover img {
   -webkit-filter: /* hue-rotate(180deg) */ saturate(150%);
@@ -95,5 +88,5 @@ a {
 }
 
 footer {
-  background-color: #fff;
+  background-color: var(--color-white);
 }
