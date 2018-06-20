@@ -1,3 +1,11 @@
+:root {
+  --color-black: #07161E;
+  --color-red: #FF5D30;
+  --color-orange: #FF992D;
+  --color-yellow: #EFB03B;
+  --color-white: #fff;
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -6,7 +14,7 @@ body {
   background-repeat: repeat-y;
   background-position: center center;
   background-size: cover;
-  color: #000;
+  color: var(--color-black);
 }
 
 a {
@@ -15,12 +23,12 @@ a {
 }
 
 .light {
-  background: #FFCD3C;
+  background: var(--color-yellow);
   color: white;
 }
 
 .dark {
-  background: #F5BA31;
+  background: var(--color-orange);
   color: white;
 }
 
@@ -28,31 +36,40 @@ a {
   -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
-  background: #fff;
+  background: var(--color-white);
 }
 
 .logo a:hover {
   -webkit-filter: hue-rotate(90deg);
 }
 
-.sidebar-menu a:hover {
-  background-color: #EE8F00;
+.breadcrumbs-active {
+  color: #fff !important;
+  background-color: var(--color-orange);
 }
 
-.first-light-sidebar-item { color: #EE8F00; }
-.first-light-sidebar-item:hover { background-color: #F5BA31; color: #FFCD3C; }
+.sidebar-menu a:hover {
+  background-color: var(--color-red);
+}
 
-.first-dark-sidebar-item { color: #EE8F00; }
-.first-dark-sidebar-item:hover { background-color: #F5BA31; color: #FFCD3C; }
+.first-sidebar-item {
+  color: var(--color-white);
+  font-weight: bold;
+}
 
+.first-sidebar-item:hover,
+.first-sidebar-item:hover {
+  background-color: #F5BA31;
+}
 
 .product:hover img {
   -webkit-filter: /* hue-rotate(180deg) */ saturate(150%);
 }
 
 .price {
+  font-size: 18px;
   font-weight: bold;
-  color: #EE8F00;
+  color: var(--color-orange);
 }
 
 .product p {
@@ -60,17 +77,17 @@ a {
 }
 
 .addtocart {
-  background-color: #FFC130;
+  background-color: var(--color-yellow);
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
 }
 
-.addtocart:hover { background-color: #FFB300; }
+.addtocart:hover { background-color: var(--color-red); }
 
 .addtocart:active {
   position: relative;
-  background-color: #ECA600;
+  background-color: var(--color-red);
   top: 3px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
