@@ -49,11 +49,7 @@ a {
 .first-sidebar-item {
   color: var(--color-white);
   font-weight: bold;
-  text-decoration: underline;
-  margin-top: 5px;
 }
-
-nav a:last-child { margin-bottom: 5px; }
 
 .product:hover img {
   -webkit-filter: /* hue-rotate(180deg) */ saturate(150%);

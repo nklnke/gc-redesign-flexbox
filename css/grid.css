@@ -48,6 +48,17 @@ main {
   min-height: 124px;
   align-items: stretch;
   align-content: stretch;
+  flex-direction: column;
+}
+
+.header div.header-item:first-child {
+  flex: 3;
+  text-align: left;
+}
+
+.header div:nth-child(2) {
+  flex: 2;
+  text-align: left;
 }
 
 .header-item {
@@ -55,6 +66,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 15px;
 }
 
 .breadcrumbs {
@@ -169,7 +181,7 @@ footer div { flex: 1; }
     flex-wrap: wrap;
   }
 
-  header { flex-direction: row; }
+  .header { flex-direction: row; }
   
   .menu {  }
 
