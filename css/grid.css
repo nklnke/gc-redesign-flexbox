@@ -5,13 +5,9 @@
   flex-direction: column;
 }
 
-aside {
-  flex: 1;
-}
+aside { flex: 1; }
 
-.sidebar-menu {
-  display: none;
-}
+.sidebar-menu { display: none; }
 
 .sidebar-menu nav,
 .sidebar-menu a {
@@ -24,12 +20,9 @@ aside {
 }
 
 .sidebar-menu span { margin-left: 40px; }
-
 .first-sidebar-item span { margin-left: 20px; }
 
-main {
-  flex: 5;
-}
+main { flex: 5; }
 
 .logo {
   flex: 1;
@@ -172,7 +165,7 @@ footer div { flex: 1; }
 
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 1105px /*830px*/) {
 
   .container {
     flex-direction: row;
