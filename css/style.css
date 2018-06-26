@@ -37,23 +37,26 @@ a {
   -webkit-filter: hue-rotate(90deg);
 }
 
+.breadcrumbs {
+  color: #95989A;
+  border-bottom: 1px solid #D5D5D5;
+}
+
 .breadcrumbs-active {
   color: #fff !important;
   background-color: var(--color-orange);
 }
 
-.sidebar-menu a:hover {
-  background-color: var(--color-red);
-}
+.sidebar-menu a:hover { background-color: var(--color-red); }
+.breadcrumbs a { color: #95989A; }
+.breadcrumbs a:hover { color: #747880; }
 
 .first-sidebar-item {
   color: var(--color-white);
   font-weight: bold;
 }
 
-.product:hover img {
-  -webkit-filter: /* hue-rotate(180deg) */ saturate(150%);
-}
+.product:hover img { -webkit-filter: /* hue-rotate(180deg) */ saturate(150%); }
 
 .price {
   font-size: 18px;
@@ -65,24 +68,8 @@ a {
   color: #3E3E3E;
 }
 
-.addtocart {
-  background-color: var(--color-yellow);
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
-  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
-}
-
+.addtocart { background-color: var(--color-yellow); }
 .addtocart:hover { background-color: var(--color-red); }
+.addtocart:active { background-color: var(--color-orange); }
 
-.addtocart:active {
-  position: relative;
-  background-color: var(--color-red);
-  top: 3px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-footer {
-  background-color: var(--color-white);
-}
+footer { background-color: var(--color-white); }
