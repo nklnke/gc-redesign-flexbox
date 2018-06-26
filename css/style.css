@@ -1,3 +1,5 @@
+* { transition: .25s; }
+
 :root {
   --color-black: #07161E;
   --color-red: #FF5D30;
