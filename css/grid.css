@@ -9,10 +9,20 @@ aside { flex: 1; }
 
 .sidebar-menu { display: none; }
 
+nav img {
+  max-width: 20px;
+  max-height: 20px;
+  vertical-align: middle;
+  position: relative;
+  left: 30px;
+  top: -2px;
+}
+
 .sidebar-menu nav,
 .sidebar-menu a {
   display: block;
   width: 100%;
+  align-items: flex-end;
 }
 
 .sidebar-menu a {
