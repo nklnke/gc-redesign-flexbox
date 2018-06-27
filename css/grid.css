@@ -32,6 +32,26 @@ nav img {
 .sidebar-menu span { margin-left: 40px; }
 .first-sidebar-item span { margin-left: 20px; }
 
+
+/* start accordion menu */
+
+.first-sidebar-item { cursor: pointer; }
+
+.first-sidebar-item:after {
+  content: '\002B';
+  float: right;
+  margin-right: 10px;
+}
+
+.active:after { content: "\2212"; }
+
+.collapse {
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* end accordion menu */
+
 main { flex: 5; }
 
 .logo {
