@@ -58,7 +58,7 @@ a {
   font-weight: bold;
 }
 
-.product:hover img { -webkit-filter: /* hue-rotate(180deg) */ saturate(150%); }
+.product:hover img { -webkit-filter: saturate(150%); }
 
 .price {
   font-size: 18px;
