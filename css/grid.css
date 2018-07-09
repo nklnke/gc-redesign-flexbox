@@ -22,7 +22,6 @@ nav img {
 .sidebar-menu a {
   display: block;
   width: 100%;
-  align-items: flex-end;
 }
 
 .sidebar-menu a {
@@ -31,26 +30,6 @@ nav img {
 
 .sidebar-menu span { margin-left: 40px; }
 .first-sidebar-item span { margin-left: 20px; }
-
-
-/* start accordion menu */
-
-.first-sidebar-item { cursor: pointer; }
-
-.first-sidebar-item:after {
-  content: '\002B';
-  float: right;
-  margin-right: 10px;
-}
-
-.active:after { content: "\2212"; }
-
-.collapse {
-  max-height: 0;
-  overflow: hidden;
-}
-
-/* end accordion menu */
 
 main { flex: 5; }
 
@@ -178,13 +157,21 @@ footer {
 }
 
 footer div {
-  height: 90px;
+  min-height: 90px;
   align-items: center;
   display: flex;
   justify-content: center;
+  text-align: center;
+  font-size: 14px;
 }
 
 footer div { flex: 1; }
+
+footer p a {
+  padding: 5px;
+  margin: 5px;
+}
+
 
 
 
@@ -195,7 +182,7 @@ footer div { flex: 1; }
 
 }
 
-@media screen and (min-width: 1105px /*830px*/) {
+@media screen and (min-width: 830px /*1080px*/) {
 
   .container {
     flex-direction: row;
