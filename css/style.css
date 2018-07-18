@@ -80,3 +80,14 @@ a {
 .addtocart:active { background-color: var(--color-orange); }
 
 footer { background-color: var(--color-white); }
+
+.header span a:hover,
+.header p:hover,
+footer a:hover { text-decoration: underline; }
+
+/*
+  TODO:
+    - снять транзишны со всего
+      и навесить на отдельные элементы,
+      ибо пиздец пидорасит страницу при загрузке
+*/
