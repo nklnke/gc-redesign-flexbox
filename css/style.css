@@ -1,12 +1,12 @@
 * { transition: .2s; }
 
 :root {
-  --color-black: #07161E;
-  --color-red: #FF5D30;
-  --color-orange: #FF992D;
-  --color-yellow: #EFB03B;
+  --color-black: #07161e;
+  --color-red: #ff5d30;
+  --color-orange: #ff992d;
+  --color-yellow: #efb03b;
   --color-white: #fff;
-  --color-gray: #D1D1D1;
+  --color-gray: #d1d1d1;
 }
 
 body {

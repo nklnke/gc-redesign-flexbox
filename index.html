@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?157"></script>
 </head>
 <body>
 
@@ -304,6 +305,16 @@
     </div>
 
     <div class="light">
+
+      <!-- VK Widget -->
+      <div id="vk_groups"></div>
+      <script type="text/javascript">
+      VK.Widgets.Group("vk_groups", {mode: 3, width: "315", color1: 'EFB03B', color2: 'FFFFFF', color3: 'FFFFFF'}, 61616920);
+      </script>
+
+    </div>
+
+    <div class="dark">
       <p>
         <a href="">Комиксы</a>
         <a href="">Фигурки</a>
@@ -313,10 +324,6 @@
         <a href="">Оплата и доставка</a>
         <a href="">Контакты</a>
       </p>
-    </div>
-
-    <div class="dark">
-        vk
     </div>
 
     <div class="light">
@@ -334,6 +341,9 @@
 
   <script src="js/scripts.js"></script>
 
+  <!-- vk chat -->
+  <div id="vk_community_messages"></div>
+
 </body>
 </html>
 
@@ -341,5 +351,6 @@
   TODO:
     - aside последний блок сделать на всю высоту, чтобы не было белой дырки
     ИЛИ
-    - поправить в @media, но это не лучший вариант
+    - сделать спрайты для иконок
+    - перевести иконки в png или попробовать ужать svg
 -->
