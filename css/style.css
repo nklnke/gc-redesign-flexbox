@@ -1,4 +1,6 @@
-* { transition: .2s; }
+a,
+span,
+img { transition: .2s; }
 
 :root {
   --color-black: #07161e;
@@ -41,14 +43,12 @@ a {
   background: var(--color-white);
 }
 
-.logo a:hover {
-  -webkit-filter: hue-rotate(90deg);
-}
+.logo a:hover { -webkit-filter: hue-rotate(90deg); }
 
-.breadcrumbs {
-  color: #95989A;
-  border-bottom: 1px solid #D5D5D5;
-}
+.breadcrumbs { border-bottom: 1px solid #D5D5D5; }
+
+.breadcrumbs,
+.pagination { color: #95989A; }
 
 .breadcrumbs-active {
   color: #fff !important;
@@ -56,8 +56,12 @@ a {
 }
 
 .sidebar-menu a:hover { background-color: var(--color-red); }
-.breadcrumbs a { color: #95989A; }
-.breadcrumbs a:hover { color: #747880; }
+
+.breadcrumbs a,
+.pagination a { color: #95989A; }
+
+.breadcrumbs a:hover,
+.pagination a:hover { color: #747880; }
 
 .first-sidebar-item {
   color: var(--color-white);
@@ -72,9 +76,7 @@ a {
   color: var(--color-orange);
 }
 
-.product p {
-  color: #3E3E3E;
-}
+.product p { color: #3E3E3E; }
 
 .addtocart { background-color: var(--color-yellow); }
 .addtocart:hover { background-color: var(--color-red); }

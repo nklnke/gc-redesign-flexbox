@@ -1,5 +1,7 @@
 .flex { display: flex; }
 
+.center { text-align: center; }
+
 .container {
   margin: auto;
   flex-direction: column;
@@ -24,9 +26,7 @@ nav img {
   width: 100%;
 }
 
-.sidebar-menu a {
-  padding: 10px 0;
-}
+.sidebar-menu a { padding: 10px 0; }
 
 .sidebar-menu span { margin-left: 40px; }
 .first-sidebar-item span { margin-left: 20px; }
@@ -36,7 +36,6 @@ main { flex: 5; }
 .logo {
   flex: 1;
   margin: auto;
-  text-align: center;
 }
 
 .logo img {
@@ -78,7 +77,8 @@ main { flex: 5; }
 .cart span:first-child { font-size: 20px; }
 .cart span:last-child { font-size: 14px; }
 
-.breadcrumbs {
+.breadcrumbs,
+.pagination {
   display: inline-block;
   height: 40px;
   width: 100%;
@@ -90,14 +90,16 @@ main { flex: 5; }
   border-radius: 6px;
 }
 
-.breadcrumbs p {
+.breadcrumbs p,
+.pagination p {
   font-size: 14px;
   padding-left: 15px;
   display: inline-block;
   margin-top: 12px;
 }
 
-.breadcrumbs a { font-size: 14px; }
+.breadcrumbs a,
+.pagination a { font-size: 14px; }
 
 .search-form {
   flex: 1;
@@ -112,9 +114,11 @@ main { flex: 5; }
 }
 
 .products-row {
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.pagination { margin-bottom: 25px; }
 
 .product {
   width: 150px;
@@ -185,7 +189,7 @@ footer a {
 
 }
 
-@media screen and (min-width: 830px /*1080px*/) {
+@media screen and (min-width: 900px) {
 
   .container {
     flex-direction: row;
