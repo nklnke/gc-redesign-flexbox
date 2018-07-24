@@ -149,6 +149,7 @@ main { flex: 5; }
   border-radius: 5px;
   line-height: 33px;
   margin: 5px 0 10px;
+  text-align: center;
 }
 
 .addtocart:active {
@@ -168,7 +169,7 @@ footer div {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 footer div { flex: 1; }
@@ -181,11 +182,20 @@ footer a {
   text-align: center;
 }
 
+.recommended-products {
+  display: none;
+}
+
 
 @media screen and (min-width: 1200px) {
 
   .container { width: 1200px; }
   footer { width: 1200px; }
+
+  .recommended-products {
+    flex-direction: row;
+    display: flex;
+  }
 
 }
 

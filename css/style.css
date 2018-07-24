@@ -8,7 +8,7 @@ img { transition: .2s; }
   --color-orange: #ff992d;
   --color-yellow: #efb03b;
   --color-white: #fff;
-  --color-gray: #d1d1d1;
+  --color-gray: #9E9E9E;
   --color-green: #00e04d;
 }
 
@@ -31,8 +31,8 @@ a {
 .light,
 .dark { color: var(--color-white); }
 
-.attencion-link {
-  font-size: 16px;
+.accent-link {
+  font-size: 18px;
   display: block;
 }
 
@@ -48,7 +48,7 @@ a {
 .breadcrumbs { border-bottom: 1px solid #D5D5D5; }
 
 .breadcrumbs,
-.pagination { color: #95989A; }
+.pagination { color: var(--color-gray); }
 
 .breadcrumbs-active {
   color: #fff !important;
@@ -71,7 +71,7 @@ a {
 .product:hover img { -webkit-filter: saturate(150%); }
 
 .price {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: var(--color-orange);
 }
