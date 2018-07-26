@@ -70,9 +70,11 @@ a {
   font-weight: bold;
 }
 
-.product img { border: 1px solid var(--color-gray); }
+.product img,
+.product-page img { border: 1px solid #D5D5D5 }
 
-.product:hover img { -webkit-filter: saturate(150%); }
+.product:hover img,
+.product-page img:hover { -webkit-filter: saturate(150%); }
 
 .price {
   font-size: 20px;
