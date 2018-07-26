@@ -70,6 +70,8 @@ a {
   font-weight: bold;
 }
 
+.product p { line-height: 1.35; }
+
 .product img,
 .product-page img { border: 1px solid #D5D5D5 }
 
