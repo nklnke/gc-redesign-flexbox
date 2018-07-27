@@ -47,15 +47,12 @@ main { flex: 5; }
   justify-content: center;
   flex-wrap: wrap;
   min-height: 124px;
-  align-items: stretch;
-  align-content: stretch;
   flex-direction: column;
 }
 
 .header-item {
   justify-content: center;
   align-items: center;
-  text-align: left;
   padding: 15px;
   flex-direction: column;
 }
