@@ -65,10 +65,8 @@ footer img { max-height: 14px; }
 
 .header span img:nth-child(3) { padding-left: 10px; }
 
-.header-item span {
-  display: block;
-  text-align: center;
-}
+.header-item span { text-align: center; }
+.header-item p span { text-align: left; }
 
 .header-item:first-child span:first-child { font-size: 20px; }
 
