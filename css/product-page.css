@@ -13,10 +13,6 @@
 
 .product-page div:nth-child(2) { flex: 2; }
 
-.preview {
-  
-}
-
 .preview img {
   max-width: 110px;
   max-height: 175px;

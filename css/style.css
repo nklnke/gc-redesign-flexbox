@@ -87,13 +87,8 @@ a {
 
 .addtocart { background-color: var(--color-yellow); }
 .addtocart:hover { background-color: var(--color-red); }
-.addtocart:active { background-color: var(--color-orange); }
+.addtocart:active { background-color: var(--color-green); }
   
 .header span a:hover,
 .header p:hover,
 footer a:hover { text-decoration: underline; }
-
-/*
-  TODO:
-    - сатурэйт сделать классом и навесить на все img
-*/
