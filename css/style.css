@@ -15,7 +15,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   background-color: #fff;
-  background: url(../img/gc-icons.png) center top repeat;
+  background: url(../img/gc-icons2.png) center top repeat;
   color: var(--color-black);
 }
 
@@ -38,9 +38,9 @@ a {
 .bold { font-weight: bold; }
 
 .container {
-  -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,.35);
+  -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,.35);
+  box-shadow: 0px 0px 100px 0px rgba(0,0,0,.35);
   background: #fff;
 }
 
@@ -88,9 +88,7 @@ a {
 .addtocart { background-color: var(--color-yellow); }
 .addtocart:hover { background-color: var(--color-red); }
 .addtocart:active { background-color: var(--color-orange); }
-
-footer { background-color: #fff; }
-
+  
 .header span a:hover,
 .header p:hover,
 footer a:hover { text-decoration: underline; }
