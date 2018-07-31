@@ -39,12 +39,12 @@
     <div class="light">
       <p>
         <a href="">
-          <img src="img/icons/map.png" alt="Map"> Екатеринбург<br>
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/img/icons/map.png" alt="Map"> Екатеринбург<br>
           ул. Бориса Ельцина 3<br>
           Ельцин-центр, 2 этаж
         </a>
-        <a href="" class="accent-link"><img src="img/icons/tel.png" alt="tel"> 8 (999) 454 6425</a>
-        <a href=""><img src="img/icons/mail.png" alt="mail"> support@gotcomics.ru</a>
+        <a href="" class="accent-link"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/icons/tel.png" alt="tel"> 8 (999) 454 6425</a>
+        <a href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/img/icons/mail.png" alt="mail"> support@gotcomics.ru</a>
       </p>
     </div>
   
@@ -53,7 +53,7 @@
   <!-- vk chat 
   <div id="vk_community_messages"></div>-->
 
-  <script src="js/scripts.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri() ?>/js/scripts.js"></script>
 
 </body>
 </html>
