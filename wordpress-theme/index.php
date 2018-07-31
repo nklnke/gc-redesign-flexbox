@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/product-page.css">
   <script type="text/javascript" src="https://vk.com/js/api/openapi.js?157"></script>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
   <div class="container flex">
 
