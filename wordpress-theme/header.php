@@ -149,7 +149,12 @@
         <p><a href="#">новизне</a></p>
         <p><a class="breadcrumbs-active" href="#">названию</a></p>
         <p><a href="#">цене</a></p>
-        <input class="search-form" type="search" placeholder="Поиск по сайту">
+		
+        <form role="search" method="get" style="display: inline;" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+          <input type="search" id="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>" class="search-form" placeholder="<?php echo esc_attr__( 'Search products&hellip;', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+          <input type="hidden" name="post_type" value="product" />
+        </form>
+
 
       </div>
       <!-- /breadcrumbs -->
