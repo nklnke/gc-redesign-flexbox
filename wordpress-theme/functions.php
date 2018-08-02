@@ -1,5 +1,7 @@
 <?php
 
+add_theme_support( 'gctheme' );
+
 function mytheme_add_woocommerce_support() {
 	add_theme_support( 'gctheme' );
 }

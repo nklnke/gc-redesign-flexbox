@@ -1,5 +1,3 @@
-<<<<<<< HEAD:wordpress-theme/--woocommerce.php
-<<<<<<< HEAD:wordpress-theme/--woocommerce.php
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -24,9 +22,3 @@
 
 	<?php get_sidebar(); ?>
 	<?php get_footer(); ?>
-=======
-<?php woocommerce_content(); ?>
->>>>>>> parent of 656678d... woocommerce.php lil progress:wordpress-theme/woocommerce.php
-=======
-<?php woocommerce_content(); ?>
->>>>>>> parent of 656678d... woocommerce.php lil progress:wordpress-theme/woocommerce.php
