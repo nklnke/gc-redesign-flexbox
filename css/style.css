@@ -23,7 +23,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   background-color: #fff;
-  background: url(../img/gc-icons2.png) center top repeat;
+  background: url(img/gc-icons2.png) center top repeat;
   color: var(--color-black);
 }
 
