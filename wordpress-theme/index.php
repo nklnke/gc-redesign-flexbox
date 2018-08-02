@@ -16,9 +16,9 @@
 
   <div class="container flex">
 
-<?php get_header(); ?>
- 
-test
+	<?php get_header(); ?>
+	 
+	<?php woocommerce_content(); ?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+	<?php //get_sidebar(); ?>
+	<?php get_footer(); ?>
